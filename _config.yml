@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Yongsong Yang (杨永松)"
+title                    : "Yongsong Yang"
 description              : ""
 repository               : "yongsongyang/yongsongyang.github.io"
 google_scholar_stats_use_cdn : False
@@ -21,11 +21,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Yongsong Yang"
+  name             : "Yongsong Yang (杨永松)"
   avatar           : "images/photo_me.png"
   bio              : "Looking for Ph.D. opportunities"
   location         : "Shenzhen, China"
-  employer         : # "Harbin Institute of Technology"
+  employer         : "Harbin Institute of Technology"
   pubmed           : 
   googlescholar    : # "https://scholar.google.com.hk/citations?user=g20Q12MAAAAJ"
   email            : "21s130418@stu.hit.edu.cn"
