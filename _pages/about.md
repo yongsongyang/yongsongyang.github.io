@@ -9,7 +9,7 @@ redirect_from:
 
 About Me
 ======
-Currently, I'm an integration engeer working in BYD company limited. Prior to this, I received my master's degree of Mechanical Engineering from [School of Automotive Engineering](https://auto.hitwh.edu.cn/), [Harbin Institute of Technology](https://www.hit.edu.cn/). My research interest focus on developing universal multimodal architectures for content generation, improving learning efficiency/accuracy, and enhancing model interpretability.
+Currently, I'm an integration engeer working in BYD company limited. Prior to this, I received my master's degree of Mechanical Engineering from [Harbin Institute of Technology](https://www.hit.edu.cn/). My research interest focus on developing universal multimodal architectures for content generation, improving learning efficiency/accuracy, and enhancing model interpretability.
 You can find my CV here: [Yongsong Yang's Curriculum Vitae](../assets/CV-YongsongYang.pdf).
 
 Research
