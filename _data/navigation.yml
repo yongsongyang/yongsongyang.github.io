@@ -6,29 +6,7 @@ main:
   - title: "Research"
     url: "/#research"
 
-  - title: "Updates"
-    url: "/#updates"
-
   - title: "Publications"
     url: "assets/publication.html"
 
-  - title: "Experience"
-    url: "/#experience"
 
-  - title: "People"
-    url: "assets/people.html"
-  
-  - title: "Teaching"
-    url: "assets/teaching.html"
-
-  - title: "Services"
-    url: "assets/services.html"
-
-  - title: "Join Us"
-    url: "assets/join_us.html"
-
-  # - title: "Invited Talks"
-  #   url: "/#-invited-talks"
-
-  # - title: "Internships"
-  #   url: "/#-internships"
