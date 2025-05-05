@@ -25,6 +25,7 @@ author:
   avatar           : "images/photo_me.png"
   bio              : "Looking for Ph.D. opportunities"
   location         : "Shenzhen, China"
+  employer_icon    : "fas fa-building"  # Font Awesome工作图标
   employer         : "Harbin Institute of Technology"
   pubmed           : 
   googlescholar    : # "https://scholar.google.com.hk/citations?user=g20Q12MAAAAJ"
