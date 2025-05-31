@@ -9,7 +9,7 @@ redirect_from:
 
 About Me
 ======
-Currently, I'm an integration engeer working in BYD company limited. Prior to this, I received my master's degree of Mechanical Engineering from [Harbin Institute of Technology](https://www.hit.edu.cn/). My research interest focus on State Estimation; Object Detection; Image Segmentation; Model Distillation; Multimodal Learning.
+Currently, I'm an integration engineer working in BYD company limited. Prior to this, I received my master's degree of Mechanical Engineering from [Harbin Institute of Technology](https://www.hit.edu.cn/) in 2023, supervised by [Prof. Quanqing Yu](https://homepage.hit.edu.cn/YUQUANQING), and bachelor’s degree of Vehicle Engineering from [China University of Petroleum (East China)](https://www.upc.edu.cn/) in 2021. My research interests are around State Estimation, Object Detection, Image Segmentation, Model Distillation, Multimodal Learning.
 You can find my [CV](../assets/CV-YongsongYang.pdf) there.
 
 Research
