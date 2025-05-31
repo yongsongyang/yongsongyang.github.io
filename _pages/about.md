@@ -48,8 +48,8 @@ Research
 •	The model enabled downstream SOC estimation with MAE of 0.29% on the reconstructed time series data - outperforming the estimation result with MAE of 1.50% under sparse data.
 
 **Battery State-of-Charge Estimation based on Cross Domain Transfer Learning**  
-•	To extract the information in multidimensional time series, CNN layers were implemented for spatial feature learning while GRU layers were utilized for temporal dependency capture.
-•	For the generalization of SOC estimation under varying conditions, a distilled Ada-CNN-GRU was proposed by reducing source-target domain distribution diversity, achieving sub-1% MAE under dynamic driving cycles.
-•	For steady estimation outputs, Kalman filter is implemented as a post data processor to smooth fluctuations.
+•	To extract the information in multidimensional time series, CNN layers were implemented for spatial feature learning while GRU layers were utilized for temporal dependency capture.  
+•	For the generalization of SOC estimation under varying conditions, a distilled Ada-CNN-GRU was proposed by reducing source-target domain distribution diversity, achieving sub-1% MAE under dynamic driving cycles.  
+•	For steady estimation outputs, Kalman filter is implemented as a post data processor to smooth fluctuations.  
 •	A novel feedback mechanism was implemented to predict and correct systematic errors. By training a secondary model to estimate SOC errors and feeding them back as inputs, the framework reduced estimation inaccuracies.
 
