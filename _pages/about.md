@@ -14,7 +14,7 @@ You can find my [CV](../assets/CV-YongsongYang.pdf) here.
 
 Research
 ======
-**Quantized Prompt-guided Video Generation via Stable Video Diffusion Model (Mar 2025 - present)**  
+**Quantized Prompt-guided Video Generation via Stable Video Diffusion Model (Mar 2025 - Jun 2025)**  
 •	Built the stable video diffusion (SVD) model, and implemented a quantization strategy, reducing the model size by 65% by converting weights from FP32 to INT8 without significant performance loss.  
 •	Fine-tuned the SVD model using Low-Rank Adaptation (LoRA), optimizing the loss between predicted and actual noise to enhance generation quality.  
 •	Processed CLIP text embeddings and random noise through a U-Net with cross-attention mechanisms, ensuring alignment between prompts and generated frames.  
