@@ -8,7 +8,7 @@ title: Publications
 
 ## Journal Paper
 
-- [Deep transfer learning enables battery state of charge and state of health estimation](https://yongsongyang.github.io/mypaper/journal/Deep-transfer-learning-enables-battery-state-of-charge-and-state-of-health-estimation.pdf)<br>**Y. Yang,** Y Xu, Y. Nie, J. Li, S. Liu, L. Zhao, C. Zhang*, Q. Yu*.<br>Energy, 2024.<br>
+- [Deep transfer learning enables battery state of charge and state of health estimation](https://yongsongyang.github.io/mypaper/journal/Deep-transfer-learning-enables-battery-state-of-charge-and-state-of-health-estimation.pdf)<br>**Y. Yang,** Y Xu, Y. Nie, J. Li, S. Liu, L. Zhao, C. Zhang, Q. Yu*.<br>Energy, 2024.<br>
   
 
 - [State of charge estimation for lithium-ion batteries based on cross-domain transfer learning with feedback mechanism](https://yongsongyang.github.io/mypaper/journal/State-of-charge-estimation-for-lithium-ion-batteries-based-on-cross-domain-transfer-learning-with-feedback-mechanism.pdf)<br>**Y. Yang,** L. Zhao, Q. Yu*.<br>Journal of Energy Storage, 2023.<br>
@@ -22,7 +22,7 @@ title: Publications
 
 ## Degree Thesis
 
-- [State estimation of vehicle lithium batteries based on deep learning](https://yongsongyang.github.io/mypaper/thesis/基于深度学习的车用锂电池状态估计研究.pdf.pdf)<br>**Y. Yang** (Advisor: Q. Yu).<br>Thisis, 2023.
+- [State estimation of vehicle lithium batteries based on deep learning](https://yongsongyang.github.io/mypaper/thesis/基于深度学习的车用锂电池状态估计研究.pdf)<br>**Y. Yang** (Advisor: Q. Yu).<br>Thisis, 2023.
 
   <br>
 
