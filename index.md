@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-<img src="https://yongsongyang.github.io/yongsongyang.png" class="floatpic">
+[//]: # (<img src="https://yongsongyang.github.io/images/yongsongyang.jpg" class="floatpic">)
 
 Here is **Yongsong Yang (Casey, 杨永松)**.<br>
 
