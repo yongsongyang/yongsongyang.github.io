@@ -402,8 +402,8 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 
   /* 调整底部头像在手机端的布局 */
   .article-author-bottom .bio-photo {
-    float: none; /* 取消浮动，避免在手机端错位 */
-    margin-right: 0; /* 清除右侧间距 */
-    margin: 0 auto 1em; /* 居中显示并增加底部间距 */
-    display: block; /* 确保图片作为块级元素居中 */
-    max-width: 150px;}} /* 限制最大宽度，适配手机屏幕 */
+    float: right !important; /* 靠右浮动 */
+    margin-right: 10% !important; /* 右侧留10%间距，避免顶格 */
+    margin-left: auto !important; /* 左侧自动间距 */
+  }
+} /* 限制最大宽度，适配手机屏幕 */
