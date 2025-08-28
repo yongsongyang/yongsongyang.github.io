@@ -264,8 +264,8 @@ html{background-color:#ffffff;font-family:'PT Serif',serif;font-color:#333332;fo
 .wide {
     width: 90% !important;
   }
-#main article{margin:0 auto;width:100%;display:inline;float:left;width:90%;margin-left:8.333333333333334%;margin-right:8.333333333333334%;margin-bottom:2em;}
-#index{margin:0 auto;width:100%;display:inline;float:left;width:90%;margin-left:8.333333333333334%;margin-right:8.333333333333334%;margin-bottom:2em;}#index article h2{font-size:24px;font-size:1.3333333333333333rem;margin-bottom:1.2375rem;margin-bottom:0;}
+#main article{margin:0 auto;width:100%;display:inline;float:left;width:95%;margin-left:8.333333333333334%;margin-right:2.5%;margin-bottom:2em;}
+#index{margin:0 auto;width:100%;display:inline;float:left;width:95%;margin-left:8.333333333333334%;margin-right:2.5%;margin-bottom:2em;}#index article h2{font-size:24px;font-size:1.3333333333333333rem;margin-bottom:1.2375rem;margin-bottom:0;}
 #index article p+p{text-indent:0;}
 
 #index article p+p{text-indent:0;}
@@ -412,15 +412,6 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
     margin-right: auto !important;
     display: block; /* 确保块级元素特性，让margin:auto生效 */
   }
-
-  /*/* 个人信息文本居中 */*/
-  /*.article-author-top h4,*/
-  /*.article-author-top p,*/
-  /*.article-author-top a {*/
-  /*  text-align: center !important;*/
-  /*  margin-left: auto !important;*/
-  /*  margin-right: auto !important;*/
-  /*}*/
 }
 
 /* 手机端头像适配：头像和个人信息居中显示 */
