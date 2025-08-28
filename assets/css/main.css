@@ -267,11 +267,12 @@ html{background-color:#ffffff;font-family:'PT Serif',serif;font-color:#333332;fo
 #main article{margin:0 auto;width:100%;display:inline;float:left;width:90%;margin-left:8.333333333333334%;margin-right:8.333333333333334%;margin-bottom:2em;}
 #index{margin:0 auto;width:100%;display:inline;float:left;width:90%;margin-left:8.333333333333334%;margin-right:8.333333333333334%;margin-bottom:2em;}#index article h2{font-size:24px;font-size:1.3333333333333333rem;margin-bottom:1.2375rem;margin-bottom:0;}
 #index article p+p{text-indent:0;}
-/*隐藏后续页面个人信息*/
-#main article:nth-of-type(2) .article-author-top,
-#main article:nth-of-type(2) .article-author-bottom,
-#main article:nth-of-type(3) .article-author-top,
-#main article:nth-of-type(3) .article-author-bottom {
+
+/* 假设publication页面body有pub-page类，blogs页面有blog-page类 */
+body.pub-page #main article .article-author-top,
+body.pub-page #main article .article-author-bottom,
+body.blog-page #main article .article-author-top,
+body.blog-page #main article .article-author-bottom {
   display: none !important;
 }
 
