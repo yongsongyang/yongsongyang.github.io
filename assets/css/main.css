@@ -411,7 +411,9 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
     margin-left: auto !important;
     margin-right: auto !important;
     display: block; /* 确保块级元素特性，让margin:auto生效 */
+  }
 }
+
 
 /* 手机端头像适配：头像和个人信息居中显示 */
 @media (max-width: 1100px) {
