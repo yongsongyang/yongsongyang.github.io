@@ -5,9 +5,7 @@ title: Blogs
 ---
 
 ### Blogs
-waiting...<br>
-
-
+waiting... <br>
 
 [//]: # (### Leave a Message 欢迎留言)
 
