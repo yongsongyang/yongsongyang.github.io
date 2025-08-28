@@ -405,7 +405,7 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
   }
 
   /* 头像居中调整 */
-  .article-author-top .bio-photo,
+  .article-author-top img.bio-photo,
   .article-author-bottom .bio-photo {
     float: none !important; /* 取消浮动 */
     margin: 0 auto 1em !important; /* 左右自动外边距实现居中，底部留间距 */
