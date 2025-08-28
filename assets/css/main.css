@@ -393,17 +393,37 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 .mfp-fade.mfp-removing.mfp-bg{opacity:0;}
 @media print{*{background:transparent !important;color:black !important;box-shadow:none !important;text-shadow:none !important;filter:none !important;-ms-filter:none !important;position:static !important;} @page {margin:0.5cm;}h2,h3{orphans:3;widows:3;page-break-after:avoid;} p{orphans:3;widows:3;} pre,blockquote{border:1px solid #333;page-break-inside:avoid;padding:1em;} abbr[title]:after{content:" (" attr(title) ")";} a,a:visited{text-decoration:underline;} a[href]:after{content:" (" attr(href) ")";} a[href^="javascript:"]:after,a[href^="#"]:after{content:"";} img{max-width:100% !important;page-break-inside:avoid;} thead{display:table-header-group;} tr{page-break-inside:avoid;}}@media only screen and (min-width:30em){.image-grid li{width:33.333333%;}}@media only screen and (min-width:37.5em){html{font-size:95%;} .site-name{display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;} .top-navigation{display:inline;float:left;width:75%;margin-left:0%;margin-right:0%;} .image-wrap .headline-wrap,.image-wrap:after{left:25%;} .image-wrap .headline-wrap{margin-left:0;} #main article{display:inline;float:left;width:50%;margin-left:0%;margin-right:0%;} #index{display:inline;float:left;width:50%;margin-left:0%;margin-right:0%;} .footer-wrap footer{display:inline;float:left;width:50%;margin-left:25%;margin-right:25%;} .article-author-top{display:block;display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;} .article-author-bottom{display:none;} .toc{display:block;display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;position:fixed;top:120px;right:0;-webkit-box-shadow:0 0 5px rgba(0, 0, 0, 0.5);-moz-box-shadow:0 0 5px rgba(0, 0, 0, 0.5);box-shadow:0 0 5px rgba(0, 0, 0, 0.5);} .image-grid li{width:25%;} .related-articles{display:inline;float:left;width:50%;margin-left:25%;margin-right:25%;}}@media only screen and (min-width:48em){html{font-size:100%;} .image-grid li{width:20%;}}@media only screen and (min-width:62em){html{font-size:112.5%;} .image-grid li{width:16.666666666%;}}@media only screen and (min-width:86.375em){.site-name{display:inline;float:left;width:12.5%;margin-left:16.666666666666668%;} .top-navigation{display:inline;float:left;width:66.66666666666667%;} .image-wrap:after{left:33.333333333%;} .image-wrap .headline-wrap{margin-left:8.333333333333334%;} #main article{display:inline;float:left;width:37.5%;} #index{display:inline;float:left;width:37.5%;} .related-articles{display:inline;float:left;width:37.5%;margin-left:33.333333333333336%;margin-right:29.166666666666668%;} .footer-wrap footer{display:inline;float:left;width:37.5%;margin-left:33.333333333333336%;margin-right:29.166666666666668%;} .article-author-top{display:inline;float:left;width:12.5%;margin-left:16.666666666666668%;}}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){}
 
-/* 确保手机端不隐藏头像容器 */
+/* 手机端头像适配：头像和个人信息居中显示 */
 @media (max-width: 1100px) {
-  /* 取消顶部头像的隐藏（如果需要显示） */
-  .article-author-top {
-    display: block !important;
+  /* 显示头像容器并居中整体内容 */
+  .article-author-top,
+  .article-author-bottom {
+    display: block !important; /* 确保容器可见 */
+    text-align: center; /* 让容器内所有内容居中 */
+    margin: 0 auto 2em; /* 容器自身居中，底部留间距 */
+    width: 100%; /* 适应手机宽度 */
   }
 
-  /* 调整底部头像在手机端的布局 */
+  /* 头像居中调整 */
+  .article-author-top .bio-photo,
   .article-author-bottom .bio-photo {
-    float: right !important; /* 靠右浮动 */
-    margin-right: 10% !important; /* 右侧留10%间距，避免顶格 */
-    margin-left: auto !important; /* 左侧自动间距 */
+    float: none !important; /* 取消浮动 */
+    margin: 0 auto 1em !important; /* 左右自动外边距实现居中，底部留间距 */
+    display: block !important; /* 确保块级元素特性 */
+    max-width: 150px; /* 限制最大宽度，避免过大 */
+    height: auto; /* 保持宽高比 */
   }
-} /* 限制最大宽度，适配手机屏幕 */
+
+  /* 个人信息（文本/链接）居中 */
+  .article-author-top h4,
+  .article-author-bottom h4,
+  .article-author-top p,
+  .article-author-bottom p,
+  .article-author-top a,
+  .article-author-bottom a {
+    text-align: center !important; /* 强制文本居中 */
+    display: block; /* 确保每个元素单独占一行并居中 */
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
