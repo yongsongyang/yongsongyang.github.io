@@ -395,14 +395,14 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 
 /* 电脑端（屏幕宽度 ≥ 37.5em，约600px以上）左侧个人信息居中 */
 @media only screen and (min-width: 37.5em) {
-  .article-author-top,
-  .article-author-bottom {
-    /* 确保容器自身在左侧区域内居中 */
-    margin-left: auto !important;
-    margin-right: auto !important;
-    /* 文本内容居中 */
-    text-align: center;
-  }
+  /*.article-author-top,*/
+  /*.article-author-bottom {*/
+  /*  !* 确保容器自身在左侧区域内居中 *!*/
+  /*  margin-left: auto !important;*/
+  /*  margin-right: auto !important;*/
+  /*  !* 文本内容居中 *!*/
+  /*  text-align: center;*/
+  /*}*/
 
   /* 头像在容器内居中 */
   .article-author-top img.bio-photo,
