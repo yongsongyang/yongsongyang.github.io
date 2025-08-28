@@ -411,14 +411,14 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
     display: block; /* 确保块级元素特性，让margin:auto生效 */
   }
 
-  /* 个人信息文本居中 */
-  .article-author-top h4,
-  .article-author-top p,
-  .article-author-top a {
-    text-align: center !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
+  /*!* 个人信息文本居中 *!*/
+  /*.article-author-top h4,*/
+  /*.article-author-top p,*/
+  /*.article-author-top a {*/
+  /*  text-align: center !important;*/
+  /*  margin-left: auto !important;*/
+  /*  margin-right: auto !important;*/
+  /*}*/
 }
 
 /* 手机端头像适配：头像和个人信息居中显示 */
