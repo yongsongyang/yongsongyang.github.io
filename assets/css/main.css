@@ -411,6 +411,13 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
     margin-left: auto !important;
     margin-right: auto !important;
     display: block; /* 确保块级元素特性，让margin:auto生效 */
+
+  #main article, #index {
+    /* 在大屏幕上可以使用更大的宽度 */
+    width: 95% !important;
+    margin-left: 8.333334% !important;
+    margin-right: 2.5% !important;
+  }
   }
 }
 
