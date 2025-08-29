@@ -462,13 +462,10 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
   }
 }
 
-/* 仅作用于publication页面的正文 */
-body.page.publications .publication-content {
-  max-width: 80%; /* 占屏幕宽度的90%，可根据需要调整（如85%、95%） */
-  /* 可选：限制最大宽度上限，避免在超大屏幕上过宽 */
-  max-width: min(90%, 1600px);
-  margin-left: 10% !important; /* 左侧空出10%宽度 */
-  margin-right: 10% !important; /* 左侧空出10%宽度 */
-  padding-left: 2% !important; /* 内边距也可用百分比 */
-  padding-right: 2% !important;
+
+/* 仅调整publications页面的正文内容缩进 */
+body.page-type-publications #main article {
+  margin-left: 15% !important; /* 左侧缩进15%，可根据需要调整 */
+  margin-right: 10% !important; /* 右侧留10%空间，可调整 */
+  max-width: 75% !important; /* 限制最大宽度，避免过宽 */
 }
