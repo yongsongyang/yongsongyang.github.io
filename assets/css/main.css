@@ -269,9 +269,9 @@ html{background-color:#ffffff;font-family:'PT Serif',serif;font-color:#333332;fo
 #index article p+p{text-indent:0;}
 
 /* 隐藏Publications页面的个人信息容器 */
-body.page .article-author-top,.article-author-bottom,
+body.page[itemtype="http://schema.org/WebPage"]:has(article[itemprop="text"] h1#publications) .article-author-top,.article-author-bottom,
 /* 隐藏Blogs页面的个人信息容器 */
-body.page .article-author-top,.article-author-bottom
+body.page[itemtype="http://schema.org/WebPage"]:has(article[itemprop="text"] h1#blogs) .article-author-top,.article-author-bottom
 {
     display: none !important;
 }
