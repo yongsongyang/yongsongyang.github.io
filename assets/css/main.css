@@ -463,9 +463,10 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 }
 
 
-/* 仅调整publications页面的正文内容缩进 */
-body.page-type-publications #main article {
-  margin-left: 15% !important; /* 左侧缩进15%，可根据需要调整 */
+/* 针对 publications 页面的正文内容缩进 */
+body.page.publications #main article {
+  margin-left: 10% !important; /* 左侧缩进10%，可调整 */
   margin-right: 10% !important; /* 右侧留10%空间，可调整 */
-  max-width: 75% !important; /* 限制最大宽度，避免过宽 */
+  max-width: 80% !important; /* 内容最大宽度限制，避免过宽 */
+  padding-left: 2em !important; /* 可选：增加内边距增强缩进效果 */
 }
