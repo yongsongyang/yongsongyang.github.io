@@ -279,15 +279,20 @@ body:has(a[href*="/publications/"].current) {
   }
 }
 
-/* 隐藏Blogs页面的个人信息容器 */
-/* 匹配URL中包含 "/blogs/" 的页面 */
-html:where([class*="blogs"]),
-html:where([id*="blogs"]),
-body:has(a[href*="/blogs/"].current) {
-  .article-author-top,
-  .article-author-bottom {
+/* 当页面标题为"Publications"时隐藏个人信息 */
+article:has(h1:contains("Publications")) ~ .article-author-top,
+article:has(h1:contains("Publications")) ~ .article-author-bottom,
+article:has(h1:contains("Publications")) .article-author-top,
+article:has(h1:contains("Publications")) .article-author-bottom {
     display: none !important;
-  }
+}
+
+/* 当页面标题为"Blogs"时隐藏个人信息 */
+article:has(h1:contains("Blogs")) ~ .article-author-top,
+article:has(h1:contains("Blogs")) ~ .article-author-bottom,
+article:has(h1:contains("Blogs")) .article-author-top,
+article:has(h1:contains("Blogs")) .article-author-bottom {
+    display: none !important;
 }
 
 #index article p+p{text-indent:0;}
