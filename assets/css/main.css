@@ -467,6 +467,8 @@ body.page.publication .content {
   max-width: 80%; /* 占屏幕宽度的90%，可根据需要调整（如85%、95%） */
   /* 可选：限制最大宽度上限，避免在超大屏幕上过宽 */
   max-width: min(90%, 1600px);
-  padding-left: 10%; /* 内边距也可用百分比 */
-  padding-right: 10%;
+  margin-left: 10%; /* 左侧空出10%宽度 */
+  margin-right: 10%; /* 左侧空出10%宽度 */
+  padding-left: 2%; /* 内边距也可用百分比 */
+  padding-right: %%;
 }
