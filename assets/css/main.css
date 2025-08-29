@@ -268,17 +268,6 @@ html{background-color:#ffffff;font-family:'PT Serif',serif;font-color:#333332;fo
 #index{margin:0 auto;width:100%;display:inline;float:left;width:90%;margin-left:8.333333333333334%;margin-right:8.333333333333334%;margin-bottom:2em;}#index article h2{font-size:24px;font-size:1.3333333333333333rem;margin-bottom:1.2375rem;margin-bottom:0;}
 #index article p+p{text-indent:0;}
 
-/* 隐藏Publications页面的个人信息容器 */
-/* 匹配URL中包含 "/publications/" 的页面 */
-html:where([class*="publications"]),
-html:where([id*="publications"]),
-body:has(a[href*="/publications/"].current) {
-  .article-author-top,
-  .article-author-bottom {
-    display: none !important;
-  }
-}
-
 /* 当页面标题为"Publications"时隐藏个人信息 */
 article:has(h1:contains("Publications")) ~ .article-author-top,
 article:has(h1:contains("Publications")) ~ .article-author-bottom,
