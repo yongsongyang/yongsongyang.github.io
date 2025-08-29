@@ -2,6 +2,7 @@
 layout: page
 permalink: /publications/index.html
 title: Publications
+page-type: publications  # 添加这一行
 ---
 
 > (*: corresponding author)

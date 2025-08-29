@@ -268,6 +268,18 @@ html{background-color:#ffffff;font-family:'PT Serif',serif;font-color:#333332;fo
 #index{margin:0 auto;width:100%;display:inline;float:left;width:90%;margin-left:8.333333333333334%;margin-right:8.333333333333334%;margin-bottom:2em;}#index article h2{font-size:24px;font-size:1.3333333333333333rem;margin-bottom:1.2375rem;margin-bottom:0;}
 #index article p+p{text-indent:0;}
 
+/* 隐藏 publications 页面的个人信息 */
+body.publications .article-author-top,
+body.publications .article-author-bottom {
+    display: none !important;
+}
+
+/* 隐藏 blogs 页面的个人信息 */
+body.blogs .article-author-top,
+body.blogs .article-author-bottom {
+    display: none !important;
+}
+
 #index article p+p{text-indent:0;}
 .image-wrap{position:relative;margin-bottom:2em;}.image-wrap:after{content:" ";display:block;position:absolute;bottom:-1px;left:8%;width:0;height:0;border:20px solid transparent;border-bottom-color:#ffffff;}
 .image-wrap img{width:100%;height:auto;-ms-interpolation-mode:bicubic;}
