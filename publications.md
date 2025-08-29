@@ -25,7 +25,7 @@ page-type: publications  # 添加这一行
 
 ### Degree Thesis
 
-- [State estimation of vehicle lithium batteries based on deep learning](https://yongsongyang.github.io/mypaper/thesis/基于深度学习的车用锂电池状态估计研究.pdf)<br>**Y. Yang** (Advisor: Q. Yu).<br>Thisis, 2023.
+- [State estimation of vehicle lithium batteries based on deep learning](https://yongsongyang.github.io/mypaper/thesis/基于深度学习的车用锂电池状态估计研究.pdf)<br>**Y. Yang** (Advisor: Q. Yu).<br>Thisis, 2023.<br>
 <img src='https://yongsongyang.github.io/images/thesis-1.png' style="max-width: 50%; width: 50%;"><br>
   <br>
 
