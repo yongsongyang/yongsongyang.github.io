@@ -269,11 +269,25 @@ html{background-color:#ffffff;font-family:'PT Serif',serif;font-color:#333332;fo
 #index article p+p{text-indent:0;}
 
 /* 隐藏Publications页面的个人信息容器 */
-body.page[itemtype="http://schema.org/WebPage"]:has(article[itemprop="text"] h1#publications) .article-author-top,.article-author-bottom,
-/* 隐藏Blogs页面的个人信息容器 */
-body.page[itemtype="http://schema.org/WebPage"]:has(article[itemprop="text"] h1#blogs) .article-author-top,.article-author-bottom
-{
+/* 匹配URL中包含 "/publications/" 的页面 */
+html:where([class*="publications"]),
+html:where([id*="publications"]),
+body:has(a[href*="/publications/"].current) {
+  .article-author-top,
+  .article-author-bottom {
     display: none !important;
+  }
+}
+
+/* 隐藏Blogs页面的个人信息容器 */
+/* 匹配URL中包含 "/blogs/" 的页面 */
+html:where([class*="blogs"]),
+html:where([id*="blogs"]),
+body:has(a[href*="/blogs/"].current) {
+  .article-author-top,
+  .article-author-bottom {
+    display: none !important;
+  }
 }
 
 #index article p+p{text-indent:0;}
