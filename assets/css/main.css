@@ -463,7 +463,7 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 }
 
 /* 仅作用于publication页面的正文 */
-body.page.publications .content {
+body.page.publications .publication-content {
   max-width: 80%; /* 占屏幕宽度的90%，可根据需要调整（如85%、95%） */
   /* 可选：限制最大宽度上限，避免在超大屏幕上过宽 */
   max-width: min(90%, 1600px);
