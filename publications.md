@@ -23,6 +23,8 @@ page-type: publications  # 添加这一行
 
 - An active inflation-based sealing structure for vehicles<br>**Y. Yang,** S. Long, Q, Long, H. Liu, H. Yang，<br>ZL202422231094.5, 2024.<br>
 <img src='https://yongsongyang.github.io/images/patent-2.png' style="max-width: 60%; width: 60%;"><br>
+
+
 ---
 
 ### Degree Thesis
