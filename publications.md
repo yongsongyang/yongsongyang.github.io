@@ -21,6 +21,8 @@ page-type: publications  # 添加这一行
 - [A reconstruction method toward sparse big data of power battery](https://yongsongyang.github.io/mypaper/patent/A-reconstruction-method-toward-sparse-big-data-of-power-battery.pdf)<br>Q. Yu, **Y. Yang,** Z. Li，<br>ZL2023106096628, 2023.<br>
 <img src='https://yongsongyang.github.io/images/patent-1.png' style="max-width: 60%; width: 60%;"><br>
 
+- An active inflation-based sealing structure for vehicles<br>**Y. Yang,** S. Long, Q, Long, H. Liu, H. Yang，<br>ZL202422231094.5, 2024.<br>
+<img src='https://yongsongyang.github.io/images/patent-2.png' style="max-width: 60%; width: 60%;"><br>
 ---
 
 ### Degree Thesis
