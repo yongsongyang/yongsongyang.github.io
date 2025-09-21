@@ -18,7 +18,7 @@ page-type: publications  # 添加这一行
 
 ### Patent
 
-- An active inflation-based sealing structure for vehicles<br>**Y. Yang,** S. Long, Q, Long, H. Liu, H. Yang. <br>ZL202422231094.5, 2024.<br>
+- [An active inflation-based sealing structure for vehicles](https://yongsongyang.github.io/mypaper/patent/Body-and-vehicle.pdf)<br>**Y. Yang,** S. Long, Q, Long, H. Liu, H. Yang. <br>ZL202422231094.5, 2024.<br>
 <img src='https://yongsongyang.github.io/images/patent-2.png' style="max-width: 60%; width: 60%; max-height: 60%; height: 40%;"><br>
 
 - [A reconstruction method toward sparse big data of power battery](https://yongsongyang.github.io/mypaper/patent/A-reconstruction-method-toward-sparse-big-data-of-power-battery.pdf)<br>Q. Yu, **Y. Yang,** Z. Li.<br>ZL2023106096628, 2023.<br>
